@@ -1,0 +1,77 @@
+body {
+    background-color: #0E94D1;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+p, ul {
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 52px;
+}
+
+h2 {
+    font-family: 'Ledger', serif;
+}
+
+audio {
+    vertical-align: middle;
+}
+
+a {
+    color: #990100;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    font-variant: small-caps;
+    color: white;
+    padding: 5px 20px;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+
+button.spring {
+    background-color: #0E94D1;
+}
+
+button.summer {
+    background-color: #1BA848;
+}
+
+button.autumn {
+    background-color: #FE6732;
+}
+
+button.winter {
+    background-color: #1C64B9;
+}
+
+.main {
+    background-color: white;
+    width: 700px;
+    padding: 10px 150px 50px;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.active {
+    border: 2px solid #990100;
+}
+
+.link {
+    font-size: 12px;
+    font-style: italic;
+}
